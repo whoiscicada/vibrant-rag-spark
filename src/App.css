@@ -1,3 +1,5 @@
+
+/* Base styles kept from original */
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +41,11 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Add rainbow animation keyframes */
+@keyframes rainbow-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
