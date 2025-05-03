@@ -1,9 +1,8 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Globe, Syringe } from 'lucide-react';
+import { Globe } from 'lucide-react';
 import { useToast } from '@/components/ui/use-toast';
 
 const UrlInput = () => {
@@ -47,11 +46,6 @@ const UrlInput = () => {
 
   return (
     <Card className="glass-card animate-fade-in">
-      <div className="flex justify-center -mt-8 mb-2">
-        <div className="bg-gradient-to-r from-vibrant-blue to-vibrant-purple p-3 rounded-full shadow-lg">
-          <Syringe size={24} className="text-white" />
-        </div>
-      </div>
       <CardHeader>
         <CardTitle className="flex items-center justify-center gap-2">
           <Globe size={20} className="text-vibrant-blue" />
